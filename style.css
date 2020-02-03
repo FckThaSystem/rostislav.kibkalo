@@ -48,6 +48,9 @@ text-align: center;
 .style__instagram a:hover { background-position: right center;
 
 }
+.text__events{
+height:80px;
+}
 .style__facebook{
 text-align: center;
 }
