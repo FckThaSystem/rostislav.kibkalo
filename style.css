@@ -6,7 +6,7 @@
 	padding: 1px ;
 	max-width: 1172px;
 	width: 100%;
-	min-height: 200px;
+	/*min-height: 200px;*/
 	background-color: #EBEDEF;
 	margin-bottom: 40px;
 	border-radius: 5px;
@@ -26,7 +26,7 @@ max-width: 1172px;
 .text__events{
 	text-align: justify;
 	margin:8px;
-  height:80px;
+  /*height:80px;*/
 
 }
 .style__instagram{
@@ -35,7 +35,8 @@ text-align: center;
 .style__instagram a {
   text-decoration: none;
   outline: none;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   color: white;
   padding: 10px 10px;
   margin: 10px 10px;
@@ -117,4 +118,59 @@ text-align: center;
 	height: 20px;
 	margin-right: 10px;
 	margin-bottom: 5px;
+}
+
+.spec__list {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+}
+.spec__item {
+  width: calc(50% - 30px);
+  /*padding: 0 15px;*/
+  margin: 0 15px 40px;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+    justify-content: space-between;
+  flex-direction: column;
+}
+
+.article__info {}
+.article__footer {}
+
+@media (max-width: 767px) {
+  .blocks_special{
+    display: flex;
+    flex-direction: column;
+  }
+  /* стили для xs-устройств */
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .blocks_special{
+    display: flex;
+    flex-direction: column;
+  }
+  /* стили для sm-устройств */
+}
+@media (min-width: 991px) and (max-width: 1199px) {
+  .blocks_special{
+    display: flex;
+    flex-direction: row;
+  }
+  /* стили для md-устройств */
+}
+@media (min-width: 1200px) {
+  .blocks_special{
+    display: flex;
+    flex-direction: row;
+  }
+  /* стили для lg-устройств */
 }
