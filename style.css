@@ -26,6 +26,8 @@ max-width: 1172px;
 .text__events{
 	text-align: justify;
 	margin:8px;
+  height:80px;
+
 }
 .style__instagram{
 text-align: center;
@@ -47,9 +49,6 @@ text-align: center;
 } 
 .style__instagram a:hover { background-position: right center;
 
-}
-.text__events{
-height:80px;
 }
 .style__facebook{
 text-align: center;
