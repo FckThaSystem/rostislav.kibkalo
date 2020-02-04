@@ -35,8 +35,7 @@ text-align: center;
 .style__instagram a {
   text-decoration: none;
   outline: none;
-  display: flex;
-  justify-content: center;
+  display: inline-block;
   color: white;
   padding: 10px 10px;
   margin: 10px 10px;
@@ -145,32 +144,3 @@ text-align: center;
 
 .article__info {}
 .article__footer {}
-
-@media (max-width: 767px) {
-  .blocks_special{
-    display: flex;
-    flex-direction: column;
-  }
-  /* стили для xs-устройств */
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  .blocks_special{
-    display: flex;
-    flex-direction: column;
-  }
-  /* стили для sm-устройств */
-}
-@media (min-width: 991px) and (max-width: 1199px) {
-  .blocks_special{
-    display: flex;
-    flex-direction: row;
-  }
-  /* стили для md-устройств */
-}
-@media (min-width: 1200px) {
-  .blocks_special{
-    display: flex;
-    flex-direction: row;
-  }
-  /* стили для lg-устройств */
-}
