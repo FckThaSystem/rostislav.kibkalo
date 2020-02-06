@@ -1,0 +1,128 @@
+.blocks_special{
+	margin-top:40px;
+}
+
+.events__1{
+	padding: 1px ;
+	max-width: 723px;
+  max-height: 700px;
+  height: 100%;
+	width: 100%;
+	/*min-height: 200px;*/
+	background-color: #EBEDEF;
+	margin-bottom: 40px;
+	border-radius: 5px;
+  display: flex;
+  justify-content: stretch;
+  flex-direction: column;
+
+}
+.events__1:hover {
+box-shadow: 0 0 10px rgba(14,22,33,0.5)
+
+}
+
+.img__events img{
+	text-align: center;
+max-width: 723px;
+	width: 100%;
+	height: 100%
+}
+.text__events{
+	text-align: justify;
+	margin:8px;
+  min-height:100px;
+  max-height:500px;
+
+}
+.style__instagram{
+text-align: center;
+}
+.style__instagram a {
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  color: white;
+  padding: 10px 10px;
+  margin: 10px 10px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-image: linear-gradient(to right, #AC11DF 0%, #EA1A75 80%, #FF8236 100%);
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0,0,0,.3);
+  transition: .5s;
+
+} 
+.style__instagram a:hover { background-position: right center;
+
+}
+.style__facebook{
+text-align: center;
+}
+.style__facebook a {
+ text-decoration: none;
+  outline: none;
+  display: inline-block;
+  color: white;
+  padding: 10px 10px;
+  margin: 10px 10px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-image: linear-gradient(to right, #241CBF 0%, #5673C7 80%, #FFFFFF 100%);
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0,0,0,.3);
+  transition: .5s;
+} 
+.style__facebook a:hover { background-position: right center;
+}
+.style__telegram{
+text-align: center;
+}
+.style__telegram a {
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  color: white;
+  padding: 10px 10px;
+  margin: 10px 10px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-image: linear-gradient(to right, #5673C7 0%, #00AFE3 80%, #FFFFFF 100%);
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0,0,0,.3);
+  transition: .5s;
+} 
+.style__telegram a:hover { background-position: right center;
+
+}
+.style__events{
+text-align: center;
+}
+.style__events a {
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  color: white;
+  padding: 10px 10px;
+  margin: 10px 10px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-image: linear-gradient(to right, #1D8B02 0%, #5F9710 80%, #FFFFFF 100%);
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0,0,0,.3);
+  transition: .5s;
+} 
+.style__events a:hover { background-position: right center;
+
+}
+.events__date{
+	height: 20px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+  display: flex;
+  justify-content: flex-end;
+}
